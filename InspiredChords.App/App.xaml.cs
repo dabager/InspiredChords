@@ -16,6 +16,7 @@ namespace InspiredChords.App
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
+            /*
             Progression prog = new Progression(Note.C, ScaleType.Major);
 
             string s = "";
@@ -27,6 +28,8 @@ namespace InspiredChords.App
 
             MessageBox.Show(s);
             Application.Current.Shutdown();
+            */
+            new MainWindow().Show();
         }
     }
 }

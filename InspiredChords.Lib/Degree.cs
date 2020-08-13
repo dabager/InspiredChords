@@ -14,6 +14,7 @@ namespace InspiredChords.Lib
         d4_Subdominant,
         d5_Dominant,
         d6_Submediant,
-        d7_Subtonic
+        d7_Subtonic,
+        umut
     }
 }
